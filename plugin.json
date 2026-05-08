@@ -1,0 +1,18 @@
+{
+  "id": "docker-containers",
+  "name": "Docker Containers",
+  "icon": "docker",
+  "version": "1.0.0",
+  "entry": "main.js",
+  "apiVersion": { "major": 1, "minor": 1 },
+  "overlay": {
+    "mode": "floating",
+    "width": "85%",
+    "height": "80%",
+    "z_order": 50,
+    "maximizable": true,
+    "resizable": true,
+    "minimized_label": "Docker",
+    "minimized_label_color": "#2496ED"
+  }
+}

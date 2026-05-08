@@ -1,0 +1,26 @@
+{
+  "containers": {
+    "postgres": {
+      "name": "postgres",
+      "type": "postgresql",
+      "database": "postgres",
+      "user": "postgres",
+      "enabled": true
+    },
+    "redis": {
+      "name": "redis",
+      "type": "redis",
+      "enabled": true
+    }
+  },
+  "backup": {
+    "autoRetention": 10,
+    "maxBackupSize": "1GB",
+    "retentionDays": 30
+  },
+  "notification": {
+    "onBackupComplete": true,
+    "onRestoreComplete": true,
+    "onError": true
+  }
+}

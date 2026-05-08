@@ -1,0 +1,25 @@
+{
+  "name": "hecaton-plugin-docker-containers",
+  "version": "1.0.0",
+  "description": "Docker container snapshot and restore management plugin for Hecaton",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "docker",
+    "containers",
+    "backup",
+    "snapshot",
+    "hecaton",
+    "plugin"
+  ],
+  "author": "donghun",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
